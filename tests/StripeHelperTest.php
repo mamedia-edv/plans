@@ -6,7 +6,7 @@ use Rennokki\Plans\Helpers\StripeHelper;
 
 class StripeHelperTest extends TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
     }
